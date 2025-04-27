@@ -95,11 +95,11 @@ class PackageManagerAI:
 
 if __name__ == "__main__":
     agent = PackageManagerAI()
-    print("\nWelcome to your Package Manager AI Agent!")
+    print("\n Welcome to your Package Manager AI Agent!")
     print("You can choose a goal:")
-    print("- install → Install packages from memory")
-    print("- upgrade → Upgrade all packages from memory")
-    print("- delete → Delete all packages from memory")
-    print("- rollback → Revert system to saved package state\n")
+    print("- install > Install packages from memory")
+    print("- upgrade > Upgrade all packages from memory")
+    print("- delete > Delete all packages from memory")
+    print("- rollback > Revert system to saved package state\n")
     user_goal = input("Enter your goal: ")
     agent.run(user_goal)
