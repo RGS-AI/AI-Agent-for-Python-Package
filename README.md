@@ -8,6 +8,7 @@ It can detect installed packages, save snapshots, and act based on user goals �
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ### Features
+
 	•	Detects and saves current installed packages as JSON snapshots
 	•	Acts intelligently based on user goals:
 	•	Install saved packages
@@ -21,6 +22,7 @@ It can detect installed packages, save snapshots, and act based on user goals �
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ### How It Works
+
 	1.	The agent scans the environment and saves the installed packages with a timestamp.
 	2.	Based on your command (install, upgrade, delete, or rollback), it reasons a plan of action.
 	3.	It executes the plan, providing clear feedback at every step.
@@ -48,6 +50,7 @@ Snapshots are saved automatically in the package_memory/ directory, allowing ful
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ### Future Ideas
+
 	•	Support selecting specific snapshots
 	•	Add smarter dependency resolution
 	•	Integrate lightweight LLMs for advanced reasoning
