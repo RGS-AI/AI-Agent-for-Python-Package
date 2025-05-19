@@ -35,9 +35,9 @@ python package_agent.py
 
 You’ll be prompted to enter a goal like:
 
-• install
-• upgrade
-• delete
+• install<br>
+• upgrade<br>
+• delete<br>
 • rollback
 
 The agent will take it from there!
@@ -52,10 +52,10 @@ Snapshots are saved automatically in the package_memory/ directory, allowing ful
 
 ### Future Ideas
 
-	•	Support selecting specific snapshots
-	•	Add smarter dependency resolution
-	•	Integrate lightweight LLMs for advanced reasoning
+• Support selecting specific snapshots<br>
+• Add smarter dependency resolution<br>
+• Integrate lightweight LLMs for advanced reasoning
 
 ***
 
-**License**: Credit my work if you share or use!
+**License**: Credit my work if you share!
